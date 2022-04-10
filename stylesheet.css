@@ -282,4 +282,13 @@
     height: 20px;
   }
 
+  .mouse {
+    width: 35px;
+    height: 35px;
+  }
+
+  #blueHighlight {
+    background-color: #c6dbf0;
+  }
+
 }
