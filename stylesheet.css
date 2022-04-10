@@ -19,6 +19,19 @@
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+  a:hover {
+    font-size: 25px;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  a {
+    font-size: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+  }
   #nav-bar {
     width: 100%;
     display: inline-flex;
@@ -27,6 +40,7 @@
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
+    margin-right: 10px;
   }
 
   #top-left > h1{
