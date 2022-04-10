@@ -180,8 +180,30 @@
     font-size: 22px;
   }
 
+  #projects-div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #contacts > a:hover {
     font-size: 22px;
   }
 
+
+  .projectCard {
+    border-style: solid;
+    border-width: thin;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+
+  .repoButton {
+    width: 45%;
+    border-radius: 12px%;
+  }
 }
