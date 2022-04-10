@@ -103,7 +103,7 @@
   hr {
     width: 60%;
     font-weight: lighter;
-    margin-top: 7%;
+    margin-top: 3%;
     margin-bottom: 3%;
   }
 
@@ -250,6 +250,28 @@
     margin-bottom: 10px;
     height: 40px;
     background-color: #FFFFFF;
+  }
+
+  #bio-div {
+    display: inline-flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #leftBio {
+    width: 40%;
+    text-align: center;
+  }
+
+  #rightBio {
+    width: 60%;
+    border-style: solid;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding-left: 15px;
   }
 
 }
