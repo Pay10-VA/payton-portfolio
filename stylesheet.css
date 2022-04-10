@@ -2,115 +2,134 @@
   font-family: 'Poppins', sans-serif;
 }
 
-#nav-bar {
-  width: 100%;
-  display: inline-flex;
-  justify-content: space-between;
-  background-color: #FFFFFF;
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: red;
+  }
 }
 
-#top-left > h1{
-  font-weight: 900;
-  font-size: 40px;
-  margin: 0 0 0 0;
-}
-
-#navigation{
-  display: inline-flex;
-  justify-content: space-between;
-  width: 35%;
-  margin-right: 1%;
-}
-
-#main-content {
-  display: flex;
-  flex-direction: column;
-}
-
-#intro {
-  display: inline-flex;
-  margin-top: 10%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-}
-
-#profile-picture-div {
-  width: 40%;
-}
-
-#profile-picture-div > img {
-  height: 90%;
-  width: 90%;
-  border-radius: 50%;
-}
-
-#intro-para-div {
-  width: 60%;
-  margin-left: 5%;
-}
-
-#big-name {
-  font-size: 50px;
-}
-
-.body-text {
-  font-size: 18px;
-}
-
-#skills-div {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-}
-
-hr {
-  width: 60%;
-  font-weight: lighter;
-  margin-top: 7%;
-  margin-bottom: 3%;
-}
-
-#skills-title {
-  font-size: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.skill {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.skill-row {
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-.skill2 {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: yellow;
-  width: fit-content;
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: green;
+  }
 }
 
 
-#skill-row-1 {
-  display: inline-flex;
-  /*Make a card for each skill(programming language) and include that programming language's logo using fontawesome or flaticon*/
-}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  #nav-bar {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+  }
 
-.icons {
-  width: 100px;
-  height: 100px;
+  #top-left > h1{
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0 0 0 0;
+  }
+
+  #navigation{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-right: 1%;
+  }
+
+  #main-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #intro {
+    display: inline-flex;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  #profile-picture-div {
+    width: 40%;
+  }
+
+  #profile-picture-div > img {
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+  }
+
+  #intro-para-div {
+    width: 60%;
+    margin-left: 5%;
+  }
+
+  #big-name {
+    font-size: 50px;
+  }
+
+  .body-text {
+    font-size: 18px;
+  }
+
+  #skills-div {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  hr {
+    width: 60%;
+    font-weight: lighter;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+
+  #skills-title {
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .skill {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-row {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .skill2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+    width: fit-content;
+  }
+
+
+  #skill-row-1 {
+    display: inline-flex;
+    /*Make a card for each skill(programming language) and include that programming language's logo using fontawesome or flaticon*/
+  }
+
+  .icons {
+    width: 100px;
+    height: 100px;
+  }
+
 }
