@@ -23,6 +23,7 @@
 
 #main-content {
   display: flex;
+  flex-direction: column;
 }
 
 #intro {
@@ -54,4 +55,58 @@
 
 .body-text {
   font-size: 18px;
+}
+
+#skills-div {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+hr {
+  width: 60%;
+  font-weight: lighter;
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+
+#skills-title {
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.skill {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-row {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.skill2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+  width: fit-content;
+}
+
+
+#skill-row-1 {
+  display: inline-flex;
+  /*Make a card for each skill(programming language) and include that programming language's logo using fontawesome or flaticon*/
+}
+
+.icons {
+  width: 100px;
+  height: 100px;
 }
