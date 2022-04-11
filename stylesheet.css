@@ -420,4 +420,21 @@
     color: #de6449;
   }
 
+  #footer {
+    width: 100%;
+    background-color: #28587b;
+    color: #FFFFFF;
+    box-shadow: 5px 5px 10px #de6449;
+    //position: fixed;
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #footer > p {
+    text-align: center;
+  }
+
 }
