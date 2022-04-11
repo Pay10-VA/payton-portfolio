@@ -1,5 +1,6 @@
 * {
   font-family: 'Ubuntu', sans-serif;
+  scroll-margin-top:150px;
 }
 
 /* Mobile Styles */
@@ -418,6 +419,13 @@
 
   .orangeText {
     color: #de6449;
+  }
+
+  .contactButton {
+    background-color: #de6449;
+    color: white;
+    //height: 20px;
+    font-size: 20px;
   }
 
   #footer {
