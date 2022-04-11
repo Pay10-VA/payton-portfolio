@@ -2,15 +2,17 @@
 <html>
   <head>
     <title>Payton Viloria - Portfolio</title>
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
     <link rel='stylesheet' type ='text/css' href='stylesheet.css'/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rubik+Microbe&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rubik+Microbe&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
   </head>
 
   <body>
@@ -148,78 +150,42 @@
           <h1>My Projects</h1>
         </div>
 
-        <div class="projectCard">
-          <h1 class="blueText">Twitter Clone</h1>
-          <h3 class="orangeText">Skills Used: Java, AWS, Numerous Design Patterns</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Etiam nec felis at ligula porttitor consectetur eu ultricies neque.
-            Vestibulum congue placerat urna a egestas. Mauris eu tincidunt sem.
-            Duis ac massa in lorem rutrum facilisis. Nam mattis quis nisi at
-            sodales. Fusce vel porttitor mauris. Phasellus luctus dapibus
-            vulputate. Quisque neque purus, convallis at elit accumsan,
-          </p>
-          <button class="repoButton">Repo</button>
+        <div class="project-row">
+          <div class="card single-card">
+            <div class="card-header">
+              Mobile App
+            </div>
+            <div class="card-body">
+              <h5 class="card-title blueText">Twitter Clone</h5>
+              <p class="card-text orangeText">Skills used: Java, Amazon Web Services</p>
+              <p class="card-text">Created a native Android replica of Twitter. The front-end
+              was created in java using the Model-View-Presenter architecture
+              and implements the observer and template method design patterns.</p>
+              <p class="card-text">The back-end relied heavily on Amazon Web Services.
+                Lambda and Gateway were used to handle communications to and
+                from the client, and DynamoDB and S3 were used for storing user data and profile pictures, respectively.
+                In order to handle updating a user's follower's feed(given a
+                large amount of followers), I used SQS to asyncronously update all the user's follower's feeds.</p>
+              <button href="#" class="btn btn-primary project-button">Go somewhere</button>
+            </div>
+          </div>
+          <div class="card single-card">
+            <div class="card-header">
+              Mobile App
+            </div>
+            <div class="card-body">
+              <h5 class="card-title blueText">Family Map</h5>
+              <p class="card-text orangeText">Skills used: Java, SQLite</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare nunc eget mi fermentum pulvinar. Integer fringilla nibh sit amet pellentesque molestie. Fusce eu porta mauris, non mollis ligula. Vestibulum nisl diam, commodo et vulputate ut, faucibus a leo. Aenean aliquam dolor et libero finibus laoreet. Nulla at justo tristique, efficitur erat eget, pulvinar quam. Maecenas pharetra, nisi non tempus molestie, ligula eros consectetur tellus, nec pretium orci turpis sed justo</p>
+              <button href="#" class="btn btn-primary project-button">Go somewhere</button>
+            </div>
+          </div>
         </div>
 
-        <div class="projectCard">
-          <h1 class="blueText">Family Map</h1>
-          <h3 class="orangeText">Skills Used: Java, AWS, Numerous Design Patterns</h3>
-          <h2><em>January 2022 - April 2022</em></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Etiam nec felis at ligula porttitor consectetur eu ultricies neque.
-            Vestibulum congue placerat urna a egestas. Mauris eu tincidunt sem.
-            Duis ac massa in lorem rutrum facilisis. Nam mattis quis nisi at
-            sodales. Fusce vel porttitor mauris. Phasellus luctus dapibus
-            vulputate. Quisque neque purus, convallis at elit accumsan,
-          </p>
-          <button class="repoButton">Repo</button>
-        </div>
-
-        <div class="projectCard">
-          <h1 class="blueText">WorkTogeter App</h1>
-          <h3 class="orangeText">Skills Used: Java, AWS, Numerous Design Patterns</h3>
-          <h2><em>January 2022 - April 2022</em></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Etiam nec felis at ligula porttitor consectetur eu ultricies neque.
-            Vestibulum congue placerat urna a egestas. Mauris eu tincidunt sem.
-            Duis ac massa in lorem rutrum facilisis. Nam mattis quis nisi at
-            sodales. Fusce vel porttitor mauris. Phasellus luctus dapibus
-            vulputate. Quisque neque purus, convallis at elit accumsan,
-          </p>
-          <button class="repoButton">Repo</button>
-        </div>
-
-        <div class="projectCard">
-          <h1 class="blueText">Nevada Vaccine Finder Website</h1>
-          <h3 class="orangeText">Skills Used: Java, AWS, Numerous Design Patterns</h3>
-          <h2><em>January 2022 - April 2022</em></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Etiam nec felis at ligula porttitor consectetur eu ultricies neque.
-            Vestibulum congue placerat urna a egestas. Mauris eu tincidunt sem.
-            Duis ac massa in lorem rutrum facilisis. Nam mattis quis nisi at
-            sodales. Fusce vel porttitor mauris. Phasellus luctus dapibus
-            vulputate. Quisque neque purus, convallis at elit accumsan,
-          </p>
-          <button class="repoButton">Repo</button>
-        </div>
-
-        <div class="projectCard">
-          <h1 class="blueText">Star Wars Info</h1>
-          <h3 class="orangeText">Skills Used: Java, AWS, Numerous Design Patterns</h3>
-          <h2><em>January 2022 - April 2022</em></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Etiam nec felis at ligula porttitor consectetur eu ultricies neque.
-            Vestibulum congue placerat urna a egestas. Mauris eu tincidunt sem.
-            Duis ac massa in lorem rutrum facilisis. Nam mattis quis nisi at
-            sodales. Fusce vel porttitor mauris. Phasellus luctus dapibus
-            vulputate. Quisque neque purus, convallis at elit accumsan,
-          </p>
-          <button class="repoButton">Repo</button>
-        </div>
 
       </div>
 
-      <hr>
+
 
       <div id="contact-me-div">
         <div class="sectiontitle">
@@ -264,6 +230,8 @@
 
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
   </body>
 
 </html>
