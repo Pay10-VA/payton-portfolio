@@ -31,6 +31,7 @@
     font-size: 20px;
     margin-top: 5px;
     text-decoration: none;
+    color: black;
   }
   #nav-bar {
     width: 100%;
@@ -41,6 +42,7 @@
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     margin-right: 10px;
+    box-shadow: 10px 5px 5px gray;
   }
 
   #top-left > h1{
@@ -274,10 +276,12 @@
   #rightBio {
     width: 60%;
     border-style: solid;
+    border-width: thin;
     border-right: 0px;
     border-top: 0px;
     border-bottom: 0px;
     padding-left: 15px;
+    margin-left: 2px;
   }
 
   .openningIcon {
