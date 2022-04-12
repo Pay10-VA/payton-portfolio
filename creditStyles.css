@@ -1,0 +1,29 @@
+.holder {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.singleElement {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100px;
+}
+
+
+.leftDiv {
+
+}
+
+.rightDiv {
+  margin-left: 10px;
+}
