@@ -21,7 +21,7 @@
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   a:hover {
-    font-size: 25px;
+
   }
 
   a:visited {
@@ -124,6 +124,15 @@
 
   #options > button {
     width: 30%;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    color: #28587b;
+    border-color: #28587b;
+  }
+
+  .optionsButton {
+    width: 200px;
     height: 50px;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -446,7 +455,9 @@
     color: white;
     //height: 20px;
     font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
   }
+
 
   #footer {
     width: 100%;
