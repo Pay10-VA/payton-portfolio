@@ -211,8 +211,11 @@
   #contact-me-div {
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 70%;
     margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .single-card {
@@ -343,23 +346,72 @@
   }
 
   #form {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 90%;
+    border: solid;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+
+  #form-left {
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: #de6449;
+  }
+
+  #form-right {
+    width: 50%;
     display: flex;
     flex-direction: column;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    //box-shadow: 10px 5px 5px #e5e5e5;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    //padding-right: 10px;
-    padding: 10px 20px 20px 10px;
+    justify-content:  space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
   }
 
   input  {
     font-size: 20px;
-    margin-bottom: 10px;
-    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    width: 80%;
+    font-size: 20px !important;
+  }
+
+  textarea {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    width: 80% !important;
+    font-size: 20px !important;
+  }
+
+  #form-buttons {
+    margin-top: 15px;
+    text-align: right;
+    width: 80%;
+  }
+
+  #form-buttons > button {
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    color: #28587b;
+    font-size: 12px;
+    font-size: 20px !important;
   }
 
   #form > h2 {
