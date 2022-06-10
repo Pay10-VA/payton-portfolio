@@ -76,7 +76,6 @@
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    box-shadow: 10px 5px 5px gray;
   }
 
   #profile-picture-div {
@@ -90,17 +89,15 @@
   }
 
   #intro-para-div {
-    width: 60%;
-    margin-left: 5%;
-    //box-shadow: 10px 5px 5px #e5e5e5;
-    //box-shadow: 10px 5px 5px #de6449;
+    width: 80%;
   }
 
   #big-name {
-    font-size: 50px;
+    font-size: 90px;
     font-weight: bolder;
     //color: #022140;
     color: #de6449;
+    line-height: 200px;
   }
 
   #description {
@@ -110,9 +107,28 @@
 
   .body-text {
     font-size: 18px;
-    width: 80%;
+    width: 75%;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #options {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+
+  #options > button {
+    width: 30%;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    color: #28587b;
+    border-color: #28587b;
   }
 
   #skills-div {
@@ -414,7 +430,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
 
   .blueText {
