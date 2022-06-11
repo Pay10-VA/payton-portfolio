@@ -361,6 +361,10 @@
 
   }
 
+  .item-hover:hover{
+    background-color: #e8ebe9;
+  }
+
   #course-div {
     margin-left: auto;
     margin-right: auto;
